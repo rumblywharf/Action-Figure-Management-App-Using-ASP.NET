@@ -2,7 +2,7 @@
 
 Name: Cameron Thompson
 Student Number: 200425992
-Date: June 22, 2021
+Date: July 21, 2021
 Course: COMP-2084
 
 My Action Figure management system will allow users to login to their own accounts and display their own collection on the home page. Users will be able to add and delete figures from their collections and click on each one to display the specifications of each. 
