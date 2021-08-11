@@ -25,7 +25,7 @@ namespace Assignment_1.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            return View("Privacy");
         }
 
         public IActionResult ViewCollection()

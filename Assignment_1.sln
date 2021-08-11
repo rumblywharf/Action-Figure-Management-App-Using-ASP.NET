@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment_1", "Assignment_1\Assignment_1.csproj", "{F71540EC-663C-47D5-ACA4-AAADC2E2E1FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment_1", "Assignment_1\Assignment_1.csproj", "{F71540EC-663C-47D5-ACA4-AAADC2E2E1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCollectionz_Test", "VirtualCollectionz_Test\VirtualCollectionz_Test.csproj", "{BB820E4E-674B-4E1C-979C-010A00AA1AE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F71540EC-663C-47D5-ACA4-AAADC2E2E1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F71540EC-663C-47D5-ACA4-AAADC2E2E1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F71540EC-663C-47D5-ACA4-AAADC2E2E1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB820E4E-674B-4E1C-979C-010A00AA1AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB820E4E-674B-4E1C-979C-010A00AA1AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB820E4E-674B-4E1C-979C-010A00AA1AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB820E4E-674B-4E1C-979C-010A00AA1AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

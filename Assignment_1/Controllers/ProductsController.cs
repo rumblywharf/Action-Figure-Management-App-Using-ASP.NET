@@ -23,7 +23,7 @@ namespace Assignment_1.Controllers
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Products.Include(p => p.Buyer);
-            return View(await applicationDbContext.ToListAsync());
+            return View("Index", await applicationDbContext.ToListAsync());
         }
 
         // GET: Products/Details/5
@@ -49,7 +49,7 @@ namespace Assignment_1.Controllers
         public IActionResult Create()
         {
             ViewData["BuyerId"] = new SelectList(_context.Buyers, "Id", "Id");
-            return View();
+            return View("Create");
         }
 
         // POST: Products/Create
@@ -66,7 +66,7 @@ namespace Assignment_1.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["BuyerId"] = new SelectList(_context.Buyers, "Id", "Id", product.BuyerId);
-            return View(product);
+            return View("Create", product);
         }
 
         // GET: Products/Edit/5
